@@ -1,0 +1,35 @@
+{
+  "name": "musicjx",
+  "version": "1.0.0",
+  "description": "MusicJX — Netrunner-themed Discord music bot by JaniyaX",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js",
+    "dev": "node --watch src/index.js"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "@discord-player/extractor": "^7.2.0",
+    "@snazzah/davey": "^0.1.12",
+    "bgutils-js": "^4.0.3",
+    "discord-player": "^7.2.0",
+    "discord-player-youtubei": "^3.1.0",
+    "discord.js": "^14.27.0",
+    "dotenv": "^18.0.4",
+    "ffmpeg-static": "^5.3.0",
+    "googlevideo": "^4.1.1",
+    "mediaplex": "^1.0.0",
+    "simple-ytdl-core": "^1.1.1"
+  },
+  "allowScripts": {
+    "ffmpeg-static": true,
+    "esbuild": false
+  },
+  "author": "JaniyaX",
+  "license": "UNLICENSED",
+  "private": true,
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}
